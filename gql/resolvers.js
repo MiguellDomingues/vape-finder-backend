@@ -1,5 +1,5 @@
 const { Product, SearchType } = require('./classes.js')
-const { fetchSampleProducts, fetchProductsByCategoryBrandStore, fetchTagMetaData } = require('./database/read/readProducts.js')
+const { fetchSampleProducts, fetchProductsByCategoryBrandStore, fetchTagMetaData } = require('../database/CRUD/read.js')
 
 function buildQuery(last_product_id, category, stores, brands){
 
