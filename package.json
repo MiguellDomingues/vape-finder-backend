@@ -1,8 +1,11 @@
 {
   "name": "vape-finder-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "description": "backend for vape-finder website",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
